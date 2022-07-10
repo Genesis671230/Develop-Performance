@@ -1,0 +1,246 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        .welNav{
+            display: flex;
+            margin-top: 10px;
+            width: 80%;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background-color: white;
+
+            .welcomeLogo{
+                width: 42%;
+                object-fit: contain;
+                border-radius: 0%;
+            }
+
+            .pagesRight{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                font-size: 20px;
+                margin-right: 70px;
+                
+
+                .pagesLink{
+                    cursor: pointer;
+                    &:active{
+                        color: #11527B;
+                    }
+                }
+            }
+        }
+
+        .WelMainSec{
+            display: flex;
+            margin-top: 30px;
+            background-color: white;
+            padding: 100px;
+            gap: 50px;
+            justify-content: space-between;
+        
+        
+            .mainImgDivSec{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                .mainImgSec{
+                    display: flex;
+                    object-fit: contain;
+                }
+            }
+        
+            .mainTextWelSec{
+                display: flex;
+                gap: 30px;
+                flex: 1;
+                justify-content: flex-start;
+                flex-direction: column;
+        
+        
+                .mainHeaderSec{
+                    font-size: 2.7vw;
+                    font-weight: bold;
+                    color: #11527B;
+                }
+        
+                .mainParaSec{
+                    font-size: 22px;
+                }
+        
+                .mainParaLowerSec{
+                    font-size: 22px;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+
+        // .wellFooterAbout{
+        //     display: flex;
+        //     padding: 50px 40px;
+        //     color: white;
+        //     width: 95.9%;
+        //     justify-content: space-between;
+        //     background-color: #11527B;
+        
+        //     .footerContent{
+        //         display: flex;
+        //         margin: 0 50px;
+        //         align-items: center;
+        //         gap: 10px;
+        //     }
+        
+        //     .footerPrivacy{
+        //         color: #1E88E5;
+        //         text-decoration: underline;
+        //     }
+        // }
+
+
+
+        .mainContainer{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            
+            .mainInclose{
+                display: flex;
+                padding: 10px 150px;
+                
+                .mainLeft{
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding-left: 40px;
+
+                    .mainHeader{
+                        font-size: 3vw;
+                        max-width: 75%;
+                        font-weight: bold;
+                        color: #11527B;
+                        word-spacing: 3px;
+                    }
+
+                    .mainPara{
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: rgb(99, 99, 99);
+                        max-width: 60%;
+                    }
+
+                    .mainLink{
+                        max-width: 30%;
+                        display: flex;
+                        gap: 20px;
+                        justify-content: space-between;
+                        
+                        .buttonLogin{
+                            padding: 12px 50px;
+                            background-color: #11527B;
+                            color: white;
+                            outline: none;
+                            font-size: 20px;
+                            border: 0.5px solid #11527B;
+                            border-radius: 8px;
+                            cursor: pointer;                            
+                        }
+                        
+                        
+                        .buttonSignup{
+                            cursor: pointer;                            
+                            font-size: 20px;
+                            color: #11527B;
+                            padding: 12px 50px;
+                            background-color: #F5F5F5;
+                            border: 0.5px solid #11527B;
+                            border-radius: 8px;                            
+                            outline: none;
+
+                        }
+
+                    }
+
+                    .mainExtras{
+                        max-width: 85%;
+                        color: gray;
+                    }
+                }
+
+                .mainRight{
+                    flex: 1;
+                    justify-content: flex-end;
+                    display: flex;
+                    .welcomeLogoHome{
+
+                            border-radius: 0;
+                    }
+
+                }
+
+                
+            }
+            
+        }
+        
+        // .welFooter{
+        //     position: absolute;
+        //     bottom: 15px;
+        //     width: 100%;
+        //     display: flex;
+        //     justify-content: center;
+
+        //     justify-content: space-between;
+        //     padding: 15px 20px;
+        //     border-radius: 8px;
+        //     background-color: white;
+
+        //     .footerContent{
+        //         display: flex;
+        //         align-items: center;
+        //         gap: 10px;
+        //     }
+        // }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

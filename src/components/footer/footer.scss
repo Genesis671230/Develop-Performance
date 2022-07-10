@@ -1,0 +1,20 @@
+.wellFooter{
+    display: flex;
+    padding: 50px 40px;
+    color: white;
+    width: 95.9%;
+    justify-content: space-between;
+    background-color: #11527B;
+
+    .footerContent{
+        display: flex;
+        margin: 0 50px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footerPrivacy{
+        color: #1E88E5;
+        text-decoration: underline;
+    }
+}

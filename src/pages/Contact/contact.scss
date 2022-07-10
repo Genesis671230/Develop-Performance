@@ -1,0 +1,61 @@
+.contact{
+    background-color: #F5F5F5;
+    
+    .contactContainer{
+        height: 99vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 10px;
+
+        .contactnavbar{
+            display: flex;
+            align-items: center;
+            width: 80%;
+            justify-content: center;
+            .navContact{
+                display: flex;
+                background-color: white;
+                padding: 15px;
+                width: 100%;
+                border-radius: 6px;
+            align-items: center;
+            justify-content: space-between;   
+            
+            
+            .navLeft img{
+                width: 70%;
+                object-fit: contain;
+            }
+           
+            .navRight{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                font-size: 20px;
+                margin-right: 60px;
+            }
+        }
+    }
+
+    .leftSide{
+        width: 40%;
+        margin-top: 20px;
+        width: 60vw;
+        display: flex;
+        background-color: white;
+        gap: 15px;
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+
+
+    }
+
+}

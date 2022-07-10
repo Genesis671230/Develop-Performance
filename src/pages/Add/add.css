@@ -1,0 +1,199 @@
+.addRepPage {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 40px;
+    background-color: #F5F5F5;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 40px;
+    background-color: #F5F5F5;
+
+}
+
+.formInputStaff {
+    width: 40%;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formInputStaffSelect {
+    font-size: 16px;
+}
+
+.formInputReport {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.textAreaDiv {
+
+    width: 100%;
+
+}
+
+.textArea {
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: 0.2px solid rgba(128, 128, 128, 0.474);
+    border-radius: 4px;
+
+    margin-top: 12px;
+    width: 100%;
+}
+
+.outerContainer {
+    width: 85vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.disabledSelect{
+    opacity: 0.5;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    display: none;
+}
+
+.css-1kn7y0p-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1kn7y0p-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-1kn7y0p-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    font-size: 14px;
+}
+
+.css-1kn7y0p-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    opacity: 1;
+    padding: 8px;
+}
+
+.css-bx5laj-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    border: 0.2px solid rgba(128, 128, 128, 0.474);
+
+}
+
+.addContainer {
+
+    width: 60%;
+    display: flex;
+    background-color: white;
+    gap: 15px;
+    flex-direction: column;
+    height: fit-content;
+    padding: 50px;
+}
+
+.addTitle {
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 18px;
+
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #11527B;
+}
+
+
+
+.signupForm {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #11527B;
+    background-color: #c5cdd04c;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(197, 182, 182, 0.263);
+}
+
+
+.leftSide {
+    width: 40%;
+}
+
+.rightSide {
+    width: 40%;
+}
+
+.sigupformItem {
+    display: flex;
+    padding: 10px 0px;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 15px;
+
+
+}
+
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    font-size: 12px;
+
+    padding: 7.5px 14px;
+}
+
+
+
+.signupInputItem {
+    outline: none;
+    border: 0.5px solid rgba(128, 128, 128, 0.281);
+    user-select: none;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
+
+.signupformButton button {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #11527be9;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.signupformButtonRight button {
+    background-color: #11527b3a;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    cursor: pointer;
+    border: none;
+    color: #11527B;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:480px) {
+    .sigupformItem {
+        font-size: 10px;
+        padding: 5px;
+
+    }
+
+    .signupInputItem {
+        padding: 3px;
+        font-size: 6px;
+    }
+}

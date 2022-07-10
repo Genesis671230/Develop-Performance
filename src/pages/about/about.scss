@@ -1,0 +1,120 @@
+.about{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    
+    .aboutContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+
+
+.mainAbout{
+    display: flex;
+    height: 100%;
+    margin-top: 30px;
+    background-color: white;
+    padding: 100px;
+    gap: 50px;
+    justify-content: space-between;
+
+
+    .mainImgDiv{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        .mainImg{
+            display: flex;
+            object-fit: contain;
+        }
+    }
+
+    .mainText{
+        display: flex;
+        gap: 30px;
+        flex: 1;
+        justify-content: flex-start;
+        flex-direction: column;
+
+
+        .mainHeader{
+            font-size: 2.7vw;
+            font-weight: bold;
+            color: #11527B;
+        }
+
+        .mainPara{
+            font-size: 22px;
+        }
+
+        .mainParaLower{
+            font-size: 22px;
+        }
+
+    }
+
+}
+
+
+
+
+
+
+ .welNavAbout{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: white;
+
+    .welcomeLogo{
+        width: 70%;
+        object-fit: contain;
+        border-radius: 0;
+    }
+
+    .pagesRight{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 20px;
+        margin-right: 70px;
+        
+
+        .pagesLink{
+            cursor: pointer;
+            &:active{
+                color: #11527B;
+            }
+        }
+    }
+}
+
+
+.wellFooterAbout{
+    display: flex;
+    padding: 50px 40px;
+    color: white;
+    width: 95.9%;
+    justify-content: space-between;
+    background-color: #11527B;
+
+    .footerContent{
+        display: flex;
+        margin: 0 50px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footerPrivacy{
+        color: #1E88E5;
+        text-decoration: underline;
+    }
+}
+
+    }
+}

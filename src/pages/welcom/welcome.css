@@ -1,0 +1,145 @@
+/* .welcome{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 20px 70px;
+    background-color: #F5F5F5;
+    flex-direction: column;
+    
+
+} */
+/* .welcomeLogo{
+    width: 170px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    padding: 30px 200px;
+    flex-direction: column;
+}
+.heading1{
+    font-size: 22px;
+    text-shadow: 0px 6px 7px rgba(17,82,123,0.19);
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #11527B;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.para1,.para2{
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.button1{
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding: 13px 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s ease all;
+
+}
+.button1:first-child{
+    background-color: #11527B;
+    color: white;
+    
+}
+.button1:first-child:hover{
+    background-color: #11527b65;
+    color: #07456b;
+}
+
+.button2{
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding: 13px 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s ease all;
+    font-weight: bold;
+    color: #11527b;
+    background-color: #11527b37;
+}
+
+.anchor{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: bold;
+    border-bottom: 0.5px solid gray;
+    color: #11527B;
+    cursor: pointer;
+} */
+
+@media screen and (max-width:480px) {
+        .heading1{
+            font-size: 8px;
+            padding: 5px;
+
+        }
+        .para{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+        .para2{
+            display: none;
+        }
+        .buttonContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            user-select: none;
+            outline: none;
+        }
+        
+}
+
+@media  (hover:hover) {
+       .button1:hover{
+            background-color: #11527b65;
+            color: #07456b;
+        }
+        .button1:nth-child(2):hover{
+            background-color: #11527b65;
+            color: #07456b;
+        }
+}

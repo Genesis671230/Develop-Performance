@@ -1,0 +1,113 @@
+.editpage{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+    
+}
+
+.editReportpage{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #F5F5F5;
+    
+}
+.formInputEditReport{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.textAreaDivRep{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.textArea{
+    padding: 10px;
+    outline: none;
+border: 0.2px solid rgba(128, 128, 128, 0.474);
+border-radius: 4px;
+    margin-top: 12px;
+    width: 100%;
+}
+.outerContainer{
+    width: 85vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+display: none;
+}
+.css-1kn7y0p-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
+ 
+    padding: 8px;
+}
+.css-bx5laj-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+border: 0.2px solid rgba(128, 128, 128, 0.474);
+
+}
+.editContainerForm{
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: fit-content;
+    padding: 30px;
+    gap: 40px;
+    flex-direction: column;
+}
+.edittitle{
+    font-size: 16px;
+    align-self: flex-start;
+    font-weight: bold;
+    color: #11527B;
+}
+
+.EDTForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.editformRight{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+input{
+    display: flex;
+    gap: 20px;
+}
+
+.editformBTN{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    grid-column-start: 1;
+
+}
+.editformBTN > button{
+    width: 50%;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: #11527be8;
+}
+
+
+@media screen and (max-width:480px) {
+    .sigupformItem{
+        font-size: 10px;
+        padding: 5px ;
+
+    }
+    .signupInputItem{
+        padding: 3px;
+        font-size: 6px;
+    }
+}

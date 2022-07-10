@@ -1,0 +1,179 @@
+.signupPage{
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+.topSignup{
+    display: flex;
+    height: 95%;
+    align-items: center;
+    flex-direction: column;
+
+}
+.welNavSignup{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 79%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    
+}
+
+.welcomeLogo{
+    width: 42%;
+    object-fit: contain;
+    border-radius: 0;
+    
+    
+}
+
+
+.pagesRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    margin-right: 70px;
+    
+}
+.pagesLink{
+        cursor: pointer;
+    }
+
+    .signupOuterContainer{
+
+            margin-top: 40px;
+            width: 81%;
+            height: 80%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        
+    
+    }
+.signupContainer{
+    margin-top: 20px;
+    width: 80vw;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.title{
+    font-size: 16px;
+    display: flex;
+    
+    font-weight: 500;
+    color: #11527B;
+}
+.ttext{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #11527B;
+
+}
+
+
+.signupForm{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #11527B;
+    background-color: #c5cdd04c;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(197, 182, 182, 0.263);
+}
+
+
+
+.rightSideSignup{
+    width: 70%;
+    padding: 20px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.signupformInput{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+label{
+    color: #11527B;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 0.2px solid rgba(128, 128, 128, 0.474);
+}
+.signupBtn {
+    width: 100%;
+}
+.sb{
+    width: 100%;
+    background-color: #11527be3;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.trialBtn {
+    width: 100%;
+
+}
+.tb{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #11527b38;
+}
+
+.welFooterSignup{
+    position: absolute;
+    width: 79%;
+    bottom: 10px;
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.footerContent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .sigupformItem{
+        font-size: 10px;
+        padding: 5px ;
+
+    }
+    .signupInputItem{
+        padding: 3px;
+        font-size: 6px;
+    }
+}

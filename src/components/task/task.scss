@@ -1,0 +1,169 @@
+.datatableTask{
+height: 100vh;
+    padding: 20px 70px;
+    background-color: #F5F5F5;
+
+    .datagrid{
+        border: none;
+        height: 70vh;
+    }
+    
+    .dataTableTitle{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #11527B;
+        background-color: #F5F5F5;
+        margin-bottom: 10px;
+        display: flex;
+        margin-top: 1px;
+        margin-bottom: 30px;
+        
+        align-items: center;
+        justify-content: space-between;
+
+        .link{
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            background-color: #11527B;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px solid green;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            
+        }
+    }
+
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+
+        }
+    }
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+
+        &.active{
+            background-color: rgba(0,128,0,0.05) ;
+            color: green;
+        }
+        &.Pending{
+            background-color: rgba(255,217,0, 0.05);
+            color: goldenrod;
+        }
+        &.passive{
+            background-color: rgba(255,0,0,0.05);
+            color: crimson;
+        }
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            cursor: pointer;
+        }
+        
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgb(175, 14, 46);
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.MuiDataGrid-viewport,.MuiDataGrid-row,.MuiDataGrid-renderingZone{
+    max-height: fit-content!important;
+    }
+    .MuiDataGrid-cell{
+        white-space: initial !important;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+        /* max-height:fit-content!important; */
+        overflow:auto;
+    /* max-height: inherit; */
+    /* line-height:16px!important; */
+
+        
+    /* display:flex!important; */
+    /* align-items: center; */
+    
+    /* max-height: inherit; */
+    /* width: 100%; */
+    /* white-space: initial; */
+    /* line-height:16px; */
+    
+    
+}
+    .MuiDataGrid-row{
+        display:flex!important;
+        align-items: flex-end;  
+        
+       
+}
+.css-1xy1myn-MuiDataGrid-root .MuiDataGrid-iconSeparator{
+    display: none;
+}
+
+.MuiDataGrid-columnHeaders{
+    background-color: #399ad6;
+    font-size: 16px;
+    color: white;
+}
+
+.MuiDataGrid-main{
+    border: none;
+    
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+}
+
+
+
+      .MuiDataGrid-renderingZone {
+        max-height: "none !important"
+      }
+
+       .MuiDataGrid-cell {
+        line-height: unset !important;
+        white-space: normal;
+        max-height : none !important;
+      }
+
+      .MuiDataGrid-row {
+       max-height: "none !important"
+      }
+
+
+
+

@@ -1,0 +1,70 @@
+.right {
+    flex: 2;
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 20px;
+        justify-content: space-between;
+
+        .addFormInput {
+            width: 40%;
+            gap: 12px;
+            display: flex;
+            flex-direction: column;
+
+            .MuiFormControl-root .selectOptions .css-tmohrq-MuiFormControl-root{
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon {
+                    cursor: pointer;
+                }
+            }
+
+            input {
+                width: 93%;
+                padding: 10px;
+                background-color: transparent;
+                color: black;
+            }
+        }
+
+        .formBtn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 160px;
+
+            .error {
+                color: #11527B;
+                font-size: 14px;
+            }
+
+            button {
+                width: 150px;
+                padding: 10px;
+                border: none;
+                background-color: #11527B;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 10px;
+
+                &:disabled {
+                    background-color: rgba(0, 128, 128, 0.261);
+                    cursor: not-allowed;
+                }
+            }
+
+        }
+    }
+}

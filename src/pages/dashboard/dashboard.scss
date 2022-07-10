@@ -1,0 +1,161 @@
+.dashTop{
+    height: 78vh;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+
+    background-color: #F5F5F5;
+    gap: 10px 20px;
+
+
+        .dashItem1{
+
+            display: flex;
+            width: 40%;
+            flex-wrap: wrap;
+            padding: 10px 25px;
+            background-color: white ;
+            border-radius: 10px;
+            flex-direction: column;
+            // -webkit-box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.32); 
+            // box-shadow: 2px 5px 13px 2px rgba(0,0,0,0.32);
+
+            @media screen and (max-width:480px) {
+                    .dashItem1{
+                        width: 60%;
+                        
+                    }
+                    
+                }
+         
+
+            .dashItemTop{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 200px;
+                justify-content: space-between;
+                margin: 10px 0;
+
+                @media screen and (max-width:480px) {
+                    .dashItemTop{
+                        margin: 0px;
+                        gap: 0px;
+                    }
+                    
+                }
+
+
+                .department{
+                    background-color: #dd4e4e2c;
+                }
+                .goals{
+                    background-color: #66c6b91d;
+                }
+                .reports{
+                    background-color: #dd4e4e24;
+                }
+                .score{
+                    background-color: #e64d3c16;
+                }
+                .task{
+                    background-color: #66c6b926;
+                }
+                .units{
+                    background-color: #66c6b927;
+                }
+                .staff{
+                    background-color: #2e265425;
+                }
+                .user{
+                    background-color: #7fff7629;
+                }
+
+                .dashItemTopImageDiv{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+
+                      
+                      
+                        .dashItemImg{
+                            width: 30px;
+                            height: 30px;
+                            background: transparent;
+                            object-fit: cover;
+                            
+                            // -webkit-box-shadow: 3px 7px 20px -4px rgba(0,0,0,0.57); 
+                            // box-shadow: 3px 7px 20px -4px rgba(0,0,0,0.57);
+                            
+                        }
+                         
+                    
+                }
+
+                .all{
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #1F1A17;
+                    width: max-content;
+
+                  
+                    }
+                }
+
+
+
+
+
+                .dashItemMid{
+                    gap: 8px;
+                    margin: 10px 0;
+                    display: flex;
+                    flex-direction: column;
+                    .itemTitle{
+                        font-size: 18px;
+                        font-weight: 600;
+                        // border-bottom: 0.8px solid lightblue;
+                        width: max-content;
+                    }
+                    .itemPara{
+                        display: flex;
+                        max-width: 60%;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+
+                    @media screen and (max-width:480px) {
+                        .itemPara{
+                            max-width: 90%;
+                        }
+                        
+                    }
+
+                    }
+
+
+
+            .dashIcons{
+                margin-top: 15px;
+                display: flex;
+                justify-content: flex-end;
+                gap: 15px;
+                .dashitemIcons{
+                    color: rgba(44, 68, 155, 0.689);
+                    font-size: 22px !important;
+                }
+                
+            }
+        
+    }
+
+}
